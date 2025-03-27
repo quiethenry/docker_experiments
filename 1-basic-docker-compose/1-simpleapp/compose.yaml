@@ -1,8 +1,13 @@
 services:
+  include:
+  - infra.yaml
   web: 
     build: .
     ports: 
       - "8000:5000"
-  redis:
-    image: "redis:alpine"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /code
   
