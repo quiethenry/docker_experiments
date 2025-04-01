@@ -1,0 +1,11 @@
+
+Practicing building and configuring dockerfiles
+https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
+
+Probably better idea to just pull from the official repo
+https://www.docker.com/blog/how-to-use-the-alpine-docker-official-image/#How-to-run-Alpine-in-Docker
+
+sudo docker pull alpine
+
+
+
