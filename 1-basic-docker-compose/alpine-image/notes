@@ -7,5 +7,7 @@ https://www.docker.com/blog/how-to-use-the-alpine-docker-official-image/#How-to-
 
 sudo docker pull alpine
 
+04-01-2025
 
-
+Chunking idea: probably a good idea to start experimenting with making small adjustments to an image via compose. 
+	Figure out how to add a hello world file on container initialization via compose
